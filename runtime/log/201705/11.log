@@ -1,0 +1,3770 @@
+---------------------------------------------------------------
+[ 2017-05-11T15:53:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.wemall.com/ [运行时间：2.805161s][吞吐率：0.36req/s] [内存消耗：1,559.09kb] [文件加载：47]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.073004s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:57:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.wemall.com/ [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：1,558.87kb] [文件加载：47]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.wemall.com/ [运行时间：0.137008s][吞吐率：7.30req/s] [内存消耗：1,558.87kb] [文件加载：47]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.220013s][吞吐率：4.55req/s] [内存消耗：1,761.66kb] [文件加载：51]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.043002s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\public_login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:20+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?t=38174
+[ info ] www.wemall.com/captcha.html?t=38174 [运行时间：1.122064s][吞吐率：0.89req/s] [内存消耗：1,258.11kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  't' => '38174',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:27+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.22672606013609276
+[ info ] www.wemall.com/captcha.html?0.22672606013609276 [运行时间：0.369021s][吞吐率：2.71req/s] [内存消耗：1,258.20kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_22672606013609276' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:29+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.45714243060032644
+[ info ] www.wemall.com/captcha.html?0.45714243060032644 [运行时间：0.390022s][吞吐率：2.56req/s] [内存消耗：1,258.17kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_45714243060032644' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:35+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.523030s][吞吐率：1.91req/s] [内存消耗：2,569.68kb] [文件加载：57]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.wemall.com',
+  'accept' => '*/*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'exee',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.012001s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'kaiyuan'[F:\mytest\wemall\thinkphp\library\think\db\Connection.php:313]
+---------------------------------------------------------------
+[ 2017-05-11T15:59:41+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.380022s][吞吐率：2.63req/s] [内存消耗：1,613.19kb] [文件加载：48]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.wemall.com',
+  'accept' => '*/*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'exee',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010000s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:48+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?t=0.15423822909860996
+[ info ] www.wemall.com/captcha.html?t=0.15423822909860996 [运行时间：0.347020s][吞吐率：2.88req/s] [内存消耗：1,258.21kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.15423822909860996',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.002000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:49+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.009466447800267508
+[ info ] www.wemall.com/captcha.html?0.009466447800267508 [运行时间：0.325019s][吞吐率：3.08req/s] [内存消耗：1,258.23kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_009466447800267508' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:50+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?t=0.2795900754045817
+[ info ] www.wemall.com/captcha.html?t=0.2795900754045817 [运行时间：0.328018s][吞吐率：3.05req/s] [内存消耗：1,258.20kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.2795900754045817',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T15:59:51+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.5532592698872172
+[ info ] www.wemall.com/captcha.html?0.5532592698872172 [运行时间：0.395023s][吞吐率：2.53req/s] [内存消耗：1,258.17kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_5532592698872172' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.006001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:00:14+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.5532592698872172
+[ info ] www.wemall.com/captcha.html?0.5532592698872172 [运行时间：0.559032s][吞吐率：1.79req/s] [内存消耗：1,257.90kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_5532592698872172' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:01:24+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.7905253748931151
+[ info ] www.wemall.com/captcha.html?0.7905253748931151 [运行时间：0.352020s][吞吐率：2.84req/s] [内存消耗：1,258.26kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_7905253748931151' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:01:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.171010s][吞吐率：5.85req/s] [内存消耗：1,613.66kb] [文件加载：48]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'origin' => 'http://www.wemall.com',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'hkme',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.014000s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:01:26+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?t=0.6320043366709567
+[ info ] www.wemall.com/captcha.html?t=0.6320043366709567 [运行时间：0.443026s][吞吐率：2.26req/s] [内存消耗：1,258.20kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.6320043366709567',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.005000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:01:27+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.20374469296038633
+[ info ] www.wemall.com/captcha.html?0.20374469296038633 [运行时间：0.328019s][吞吐率：3.05req/s] [内存消耗：1,258.18kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_20374469296038633' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:01:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.263015s][吞吐率：3.80req/s] [内存消耗：2,569.68kb] [文件加载：57]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.wemall.com',
+  'accept' => '*/*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => '4dbj',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.012001s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'kaiyuan'[F:\mytest\wemall\thinkphp\library\think\db\Connection.php:313]
+---------------------------------------------------------------
+[ 2017-05-11T16:01:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.189011s][吞吐率：5.29req/s] [内存消耗：1,761.66kb] [文件加载：51]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010000s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\public_login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:01:42+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?t=78458
+[ info ] www.wemall.com/captcha.html?t=78458 [运行时间：0.565032s][吞吐率：1.77req/s] [内存消耗：1,258.09kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  't' => '78458',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:01:52+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.321018s][吞吐率：3.12req/s] [内存消耗：2,569.73kb] [文件加载：57]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'origin' => 'http://www.wemall.com',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'mlfx',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.019001s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'kaiyuan'[F:\mytest\wemall\thinkphp\library\think\db\Connection.php:313]
+---------------------------------------------------------------
+[ 2017-05-11T16:01:54+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.148009s][吞吐率：6.76req/s] [内存消耗：1,613.26kb] [文件加载：48]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'origin' => 'http://www.wemall.com',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'mlfx',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.005000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.012000s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.17990727087164404
+[ info ] www.wemall.com/captcha.html?0.17990727087164404 [运行时间：0.362020s][吞吐率：2.76req/s] [内存消耗：1,258.23kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_17990727087164404' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.005001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：1,613.66kb] [文件加载：48]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'origin' => 'http://www.wemall.com',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'mlfx',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.013001s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.36294303117857996
+[ info ] www.wemall.com/captcha.html?0.36294303117857996 [运行时间：0.351020s][吞吐率：2.85req/s] [内存消耗：1,258.20kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_36294303117857996' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.2536308075370306
+[ info ] www.wemall.com/captcha.html?0.2536308075370306 [运行时间：0.371021s][吞吐率：2.70req/s] [内存消耗：1,258.21kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_2536308075370306' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?t=0.17576480949598094
+[ info ] www.wemall.com/captcha.html?t=0.17576480949598094 [运行时间：0.323018s][吞吐率：3.10req/s] [内存消耗：1,258.20kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.17576480949598094',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:15+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.794928148343039
+[ info ] www.wemall.com/captcha.html?0.794928148343039 [运行时间：0.309018s][吞吐率：3.24req/s] [内存消耗：1,258.20kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_794928148343039' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:16+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.5732416825920705
+[ info ] www.wemall.com/captcha.html?0.5732416825920705 [运行时间：0.317018s][吞吐率：3.15req/s] [内存消耗：1,258.20kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_5732416825920705' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:17+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?t=0.2527538987054838
+[ info ] www.wemall.com/captcha.html?t=0.2527538987054838 [运行时间：0.322019s][吞吐率：3.11req/s] [内存消耗：1,258.18kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  't' => '0.2527538987054838',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:18+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html?0.3360472528122129
+[ info ] www.wemall.com/captcha.html?0.3360472528122129 [运行时间：0.335019s][吞吐率：2.98req/s] [内存消耗：1,258.17kb] [文件加载：36]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '0_3360472528122129' => '',
+  'id' => NULL,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003001s ]
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\mytest\wemall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:10:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/public/login.html
+[ info ] www.wemall.com/admin/public/login.html [运行时间：0.413024s][吞吐率：2.42req/s] [内存消耗：2,571.68kb] [文件加载：56]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'origin' => 'http://www.wemall.com',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'r7by',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010000s ]
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ F:\mytest\wemall\application\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.069004s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `last_login_time`='2017-05-11 16:10:24',`last_login_ip`='127.0.0.1',`updated_at`='2017-05-11 16:10:24'  WHERE  `id` = 1 [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:10:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：1.302075s][吞吐率：0.77req/s] [内存消耗：2,864.95kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.006000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:10:25' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:./application/admin/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:11:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：0.946054s][吞吐率：1.06req/s] [内存消耗：2,865.16kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:11:48' ORDER BY id desc [ RunTime:0.004000s ]
+[ error ] [0]模板文件不存在:./application/admin/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:14:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：0.930053s][吞吐率：1.08req/s] [内存消耗：3,083.41kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.012000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:14:19' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:./application/admin/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:14:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：1.000057s][吞吐率：1.00req/s] [内存消耗：2,865.16kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:14:21' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:./application/admin/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:21:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：1.004057s][吞吐率：1.00req/s] [内存消耗：2,865.27kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009001s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:21:51' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:application/admin/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:22:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：0.981056s][吞吐率：1.02req/s] [内存消耗：2,865.06kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:22:03' ORDER BY id desc [ RunTime:0.001000s ]
+[ error ] [0]模板文件不存在:/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:22:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：0.938053s][吞吐率：1.07req/s] [内存消耗：2,865.05kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:22:08' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:22:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：1.029059s][吞吐率：0.97req/s] [内存消耗：2,865.15kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.006001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.012001s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:22:18' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:application/admin/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:22:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：0.977056s][吞吐率：1.02req/s] [内存消耗：2,865.15kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:22:23' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:/application/admin/view/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：0.985057s][吞吐率：1.02req/s] [内存消耗：2,865.02kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010001s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:24:23' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:24:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：0.997057s][吞吐率：1.00req/s] [内存消耗：2,865.03kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.008001s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:24:32' ORDER BY id desc [ RunTime:0.003000s ]
+[ error ] [0]模板文件不存在:/public_header.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:26:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：1.040059s][吞吐率：0.96req/s] [内存消耗：2,868.42kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009001s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:26:43' ORDER BY id desc [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:./application/admin/view/public_left.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:27:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.wemall.com/admin/index/index.html [运行时间：1.091062s][吞吐率：0.92req/s] [内存消耗：3,067.01kb] [文件加载：66]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.008000s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 16:27:17' ORDER BY id desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:27:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/site/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/config/site/index.html?_pjax=%23pjax-container [运行时间：0.658038s][吞吐率：1.52req/s] [内存消耗：2,949.55kb] [文件加载：68]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.site',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/index/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.007000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\config\SiteController->index[ F:\mytest\wemall\application\admin\controller\config\SiteController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\config\site_index.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `config` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:27:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/config/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/config/index.html?_pjax=%23pjax-container [运行时间：0.581033s][吞吐率：1.72req/s] [内存消耗：2,848.09kb] [文件加载：62]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fconfig%2Fsite%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/config/site/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\wx\ConfigController->index[ F:\mytest\wemall\application\admin\controller\wx\ConfigController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\config_index.html [ array (
+  0 => 'url',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_config` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_config` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:27:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/menu/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/menu/index.html?_pjax=%23pjax-container [运行时间：0.633036s][吞吐率：1.58req/s] [内存消耗：2,909.23kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Fconfig%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/config/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.008001s ]
+[ info ] [ RUN ] app\admin\controller\wx\MenuController->index[ F:\mytest\wemall\application\admin\controller\wx\MenuController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\menu_index.html [ array (
+  0 => 'menulist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_menu` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_menu` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:27:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/reply/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/reply/index.html?_pjax=%23pjax-container [运行时间：0.619035s][吞吐率：1.62req/s] [内存消耗：2,957.91kb] [文件加载：68]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.reply',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Fmenu%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/menu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\wx\ReplyController->index[ F:\mytest\wemall\application\admin\controller\wx\ReplyController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\reply_index.html [ array (
+  0 => 'replylist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_reply` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_reply` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (29,103,103) [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:28:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/tplmsg/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/tplmsg/index.html?_pjax=%23pjax-container [运行时间：0.761044s][吞吐率：1.31req/s] [内存消耗：2,905.98kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.tplmsg',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Freply%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/reply/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010000s ]
+[ info ] [ RUN ] app\admin\controller\wx\TplmsgController->index[ F:\mytest\wemall\application\admin\controller\wx\TplmsgController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\tplmsg_index.html [ array (
+  0 => 'tplmsglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_tplmsg` [ RunTime:0.090006s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_tplmsg` [ RunTime:0.004001s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:29:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/category/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/article/category/index.html?_pjax=%23pjax-container [运行时间：0.652037s][吞吐率：1.53req/s] [内存消耗：2,905.87kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article.category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Ftplmsg%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/tplmsg/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009001s ]
+[ info ] [ RUN ] app\admin\controller\article\CategoryController->index[ F:\mytest\wemall\application\admin\controller\article\CategoryController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\article\category_index.html [ array (
+  0 => 'categorylist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_category` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `article_category` [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:29:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/group/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/auth/group/index.html?_pjax=%23pjax-container [运行时间：0.503029s][吞吐率：1.99req/s] [内存消耗：2,897.59kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Farticle%2Fcategory%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/article/category/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\auth\GroupController->index[ F:\mytest\wemall\application\admin\controller\auth\GroupController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\auth\group_index.html [ array (
+  0 => 'grouplist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:29:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/addons/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/addons/index.html?_pjax=%23pjax-container [运行时间：0.427024s][吞吐率：2.34req/s] [内存消耗：2,615.67kb] [文件加载：63]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addons',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fauth%2Fgroup%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/auth/group/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.005001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010001s ]
+[ info ] [ RUN ] app\admin\controller\AddonsController->index[ F:\mytest\wemall\application\admin\controller\AddonsController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\addons_index.html [ array (
+  0 => 'item',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.032002s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/demo.png
+[ info ] www.wemall.com/addons/putong/demo/demo.png [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：1,232.65kb] [文件加载：37]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'addons',
+    1 => 'putong',
+    2 => 'demo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/help/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/help/index.html?_pjax=%23pjax-container [运行时间：0.159009s][吞吐率：6.29req/s] [内存消耗：1,705.82kb] [文件加载：51]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'help',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010000s ]
+[ info ] [ RUN ] app\admin\controller\HelpController->index[ F:\mytest\wemall\application\admin\controller\HelpController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\help_index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:29:27+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/demo.png
+[ info ] www.wemall.com/addons/putong/demo/demo.png [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：1,232.63kb] [文件加载：37]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'addons',
+    1 => 'putong',
+    2 => 'demo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/help/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:29:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/addons/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/addons/index.html?_pjax=%23pjax-container [运行时间：0.375021s][吞吐率：2.67req/s] [内存消耗：2,615.59kb] [文件加载：63]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addons',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/help/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.013001s ]
+[ info ] [ RUN ] app\admin\controller\AddonsController->index[ F:\mytest\wemall\application\admin\controller\AddonsController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\addons_index.html [ array (
+  0 => 'item',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.033002s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:29:31+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/demo.png
+[ info ] www.wemall.com/addons/putong/demo/demo.png [运行时间：0.160009s][吞吐率：6.25req/s] [内存消耗：1,232.65kb] [文件加载：37]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'addons',
+    1 => 'putong',
+    2 => 'demo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:29:33+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.461027s][吞吐率：2.17req/s] [内存消耗：2,762.73kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003001s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.003000s ]
+[ error ] [0]模板文件不存在:./application/admin/view/layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:46:09+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.324018s][吞吐率：3.09req/s] [内存消耗：2,763.00kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002001s ]
+[ error ] [0]模板文件不存在:./application/admin/view/layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:46:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/addons/index.html
+[ info ] www.wemall.com/admin/addons/index.html [运行时间：0.504029s][吞吐率：1.98req/s] [内存消耗：2,632.34kb] [文件加载：63]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addons',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.010000s ]
+[ info ] [ RUN ] app\admin\controller\AddonsController->index[ F:\mytest\wemall\application\admin\controller\AddonsController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\addons_index.html [ array (
+  0 => 'item',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.035002s ]
+---------------------------------------------------------------
+[ 2017-05-11T16:46:16+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/demo.png
+[ info ] www.wemall.com/addons/putong/demo/demo.png [运行时间：0.195012s][吞吐率：5.13req/s] [内存消耗：1,232.52kb] [文件加载：37]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'addons',
+    1 => 'putong',
+    2 => 'demo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T16:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.473027s][吞吐率：2.11req/s] [内存消耗：2,762.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Faddons%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002001s ]
+[ error ] [0]模板文件不存在:F:\mytest\wemall\addons\putong\demo\view\layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.369021s][吞吐率：2.71req/s] [内存消耗：2,763.00kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004001s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:application/admin/view/layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:48:09+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.376022s][吞吐率：2.66req/s] [内存消耗：2,763.13kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.003000s ]
+[ error ] [0]模板文件不存在:F:\mytest\wemall\addons\putong\demo\view\application_admin_view_layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:48:26+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.376022s][吞吐率：2.66req/s] [内存消耗：2,762.94kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:/layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:48:31+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.384022s][吞吐率：2.60req/s] [内存消耗：2,763.05kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003001s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:F:\mytest\wemall\addons\putong\demo\view\layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:48:36+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.396023s][吞吐率：2.53req/s] [内存消耗：2,763.05kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:F:\mytest\wemall\addons\putong\demo\view\layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:49:11+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.370021s][吞吐率：2.70req/s] [内存消耗：2,821.55kb] [文件加载：65]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:/layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T16:49:20+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/admin/index.html
+[ info ] www.wemall.com/addons/putong/demo/admin/index.html [运行时间：0.351020s][吞吐率：2.85req/s] [内存消耗：2,763.00kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'putong',
+  'addon' => 'demo',
+  'controller' => 'admin',
+  'action' => 'index',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ RUN ] think\addons\Route->execute[ F:\mytest\wemall\vendor\qingyuexi\think-addons\src\addons\Route.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\mytest\wemall\addons\putong\demo\view\admin_index.html [ array (
+  0 => 'configList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `addons_putong_demo_config` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `addons_putong_demo_config` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `addons_putong_demo_config` ORDER BY id desc LIMIT 0,15 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `file` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `file` WHERE  `id` IN (1,1) [ RunTime:0.002000s ]
+[ error ] [0]模板文件不存在:application/admin/view/layout_addons.html[F:\mytest\wemall\thinkphp\library\think\Template.php:1086]
+---------------------------------------------------------------
+[ 2017-05-11T17:03:07+08:00 ] 127.0.0.1 127.0.0.1 GET /addons/putong/demo/demo.png
+[ info ] www.wemall.com/addons/putong/demo/demo.png [运行时间：0.529030s][吞吐率：1.89req/s] [内存消耗：1,232.53kb] [文件加载：37]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'addons',
+    1 => 'putong',
+    2 => 'demo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/index/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.006000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-11T17:03:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/index/index.html?_pjax=%23pjax-container [运行时间：2.111121s][吞吐率：0.47req/s] [内存消耗：3,046.13kb] [文件加载：66]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Faddons%2Fputong%2Fdemo%2Fadmin%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/addons/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.047003s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ F:\mytest\wemall\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\index_index.html [ array (
+  0 => 'todayUser',
+  1 => 'weekUser',
+  2 => 'monthUser',
+  3 => 'totalUser',
+  4 => 'date',
+  5 => 'newUserLine',
+  6 => 'newsList',
+  7 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.111007s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` BETWEEN '2017-05-11 00:00:00' AND '2017-05-12 00:00:00' LIMIT 1 [ RunTime:0.045002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-08 00:00:00' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `created_at` >  '2017-05-01 00:00:00' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `analysis` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `analysis` WHERE  `created_at` BETWEEN '2017-04-23 00:00:00' AND '2017-05-11 17:03:07' ORDER BY id desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-05-11T17:40:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/config/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/config/index.html?_pjax=%23pjax-container [运行时间：0.671038s][吞吐率：1.49req/s] [内存消耗：2,848.14kb] [文件加载：62]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Findex%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/index/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.012001s ]
+[ info ] [ RUN ] app\admin\controller\wx\ConfigController->index[ F:\mytest\wemall\application\admin\controller\wx\ConfigController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\config_index.html [ array (
+  0 => 'url',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_config` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_config` LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2017-05-11T17:40:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/menu/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/menu/index.html?_pjax=%23pjax-container [运行时间：0.655037s][吞吐率：1.53req/s] [内存消耗：2,909.23kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Fconfig%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/config/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.006001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009001s ]
+[ info ] [ RUN ] app\admin\controller\wx\MenuController->index[ F:\mytest\wemall\application\admin\controller\wx\MenuController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\menu_index.html [ array (
+  0 => 'menulist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_menu` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_menu` [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2017-05-11T17:41:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/config/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/config/index.html?_pjax=%23pjax-container [运行时间：0.624036s][吞吐率：1.60req/s] [内存消耗：2,848.19kb] [文件加载：62]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Fmenu%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/menu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.008001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.013001s ]
+[ info ] [ RUN ] app\admin\controller\wx\ConfigController->index[ F:\mytest\wemall\application\admin\controller\wx\ConfigController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\config_index.html [ array (
+  0 => 'url',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.040002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_config` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_config` LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2017-05-11T17:41:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/kefu/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/kefu/index.html?_pjax=%23pjax-container [运行时间：0.607035s][吞吐率：1.65req/s] [内存消耗：2,830.43kb] [文件加载：62]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.kefu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Fconfig%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/config/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.011000s ]
+[ info ] [ RUN ] app\admin\controller\wx\KefuController->index[ F:\mytest\wemall\application\admin\controller\wx\KefuController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\kefu_index.html [ array (
+  0 => 'kefu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_kefu` [ RunTime:0.097006s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_kefu` LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2017-05-11T17:41:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wx/print/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/wx/print/index.html?_pjax=%23pjax-container [运行时间：0.578033s][吞吐率：1.73req/s] [内存消耗：2,836.86kb] [文件加载：62]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wx.print',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Fkefu%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/kefu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.005000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.009000s ]
+[ info ] [ RUN ] app\admin\controller\wx\PrintController->index[ F:\mytest\wemall\application\admin\controller\wx\PrintController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\wx\print_index.html [ array (
+  0 => 'print',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_print` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_print` LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2017-05-11T17:41:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/category/index.html?_pjax=%23pjax-container
+[ info ] www.wemall.com/admin/article/category/index.html?_pjax=%23pjax-container [运行时间：0.627036s][吞吐率：1.59req/s] [内存消耗：2,905.92kb] [文件加载：64]
+[ info ] [ LANG ] F:\mytest\wemall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article.category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8bu7rfatubnnmu16a37ocsvod1; prevUrl=%2Fadmin%2Fwx%2Fprint%2Findex.html%3F_pjax%3D%2523pjax-container',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.wemall.com/admin/wx/print/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.wemall.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.013000s ]
+[ info ] [ RUN ] app\admin\controller\article\CategoryController->index[ F:\mytest\wemall\application\admin\controller\article\CategoryController.php ]
+[ info ] [ VIEW ] F:\mytest\wemall\public/../application/admin\view\article\category_index.html [ array (
+  0 => 'categorylist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=kaiyuan;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140)  AND `type` = 1  AND `status` = 1 [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_category` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `article_category` [ RunTime:0.003000s ]
