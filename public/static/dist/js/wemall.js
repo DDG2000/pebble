@@ -55,7 +55,7 @@
 function imageUploader(obj, more) {
     $.ajax({
         type: "get",
-        url: URL + "admin/file/index",
+        url: URL + "file/index",
         data: {},
         beforeSend: function (xhr) {
             xhr.setRequestHeader('x-pjax', 'true');
@@ -91,6 +91,7 @@ function imageUploader(obj, more) {
             });
         },
         error: function (xhr) {
+            console.log(this.url);
             toastr.error("通讯失败！请重试！");
         }
     });

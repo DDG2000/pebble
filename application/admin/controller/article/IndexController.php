@@ -9,7 +9,7 @@ class IndexController extends BaseController
 	//文章列表
 	public function index(){
 		$articlelist = Article::with('category')->order('id desc')->paginate();
-		
+		var_dump($articlelist);
 		cookie("prevUrl", request()->url());
 
 		$this->assign('articlelist', $articlelist);

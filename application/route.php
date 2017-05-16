@@ -12,4 +12,6 @@ use think\Route;
 Route::any('addons/:v/:addon/index', 'app/addons/index',['ext'=>'html']);
 Route::any('static', "app/index/themeStatic");
 Route::any('tpl/theme', "app/index/source");
-Route::domain('wap','mobile');
+Route::domain('wap','lid');
+Route::domain('www','home');
+Route::domain('admin','admin');
