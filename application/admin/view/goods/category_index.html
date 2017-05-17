@@ -22,43 +22,41 @@
 									<label><input onchange="checkAll()" type="checkbox" value=""></label>
 								</th>
 								<th>id</th>
-								<th>名称</th>
-								<th>商品编号</th>
-								<th>分类</th>
-								<th>库存</th>
-								<th>重量/数量</th>
-								<th>本店价格</th>
+								<th>分类名称</th>
+								<th>排序</th>
 								<th>是否上架</th>
+								<th>图片</th>
+								<th>是否热销</th>
+								<th>创建时间</th>
 								<th>操作</th>
 							</tr>
 							{volist name="list" id="li"}
 							<tr>
 								<td class="hidden-xs">
 									<label><input name="checkbox" class="check" type="checkbox"
-												  value="{$li.goods_id}"></label>
+												  value="{$li.id}"></label>
 								</td>
-								<td>{$li.goods_id}</td>
-								<td>{$li.goods_name}</td>
-								<td>{$li.goods_sn}</td>
-								<td>{$li.category.name}</td>
-								<td>{$li.store_count}</td>
-								<td>{$li.amount}</td>
-								<td>{$li.shop_price}</td>
+								<td>{$li.id}</td>
+								<td>{$li.name}</td>
+								<td>{$li.sort_order}</td>
 								<td>
-                                    {eq name="li.status" value="1"}
+                                    {eq name="li.on_sale" value="1"}
                                     	<span class="label label-success">上架</span>
                                     {else/}
-                                    	<span class="label label-default">不上架</span>
+                                    	<span class="label label-default">关闭</span>
                                     {/eq}
                                 </td>
+								<td>{$li.image}</td>
+								<td>{$li.is_hot}</td>
+								<td>{$li.created_at}</td>
 								<td class="table-action">
-									<a href="{:url('/goods/index/add',array('goods_id'=>$li['goods_id']))}">编辑</a>
-									{eq name="li.status" value="0"}
-                                    <a href="{:url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>1))}">开启</a>
+									<a href="{:url('/goods/category/add',array('id'=>$li['id']))}">编辑</a>
+									{eq name="li.on_sale" value="0"}
+                                    <a href="{:url('/goods/category/update',array('id'=>$li['id'],'on_sale'=>1))}">开启</a>
                                     {else}
-                                    <a href="{:url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>0))}">关闭</a>
+                                    <a href="{:url('/goods/category/update',array('id'=>$li['id'],'on_sale'=>0))}">关闭</a>
                                     {/eq}
-									<a href="{:url('/goods/index/del',array('id'=>$li['goods_id']))}">删除</a>
+									<a href="{:url('/goods/category/del',array('id'=>$li['id']))}">删除</a>
 								</td>
 							</tr>
 							{/volist}
@@ -86,7 +84,6 @@
 					<div class="btn-group">
 					</div>
 					<div class="pull-right">
-						{$list->render()}
 					</div>
 				</div>
 			</div>

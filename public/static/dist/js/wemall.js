@@ -68,8 +68,9 @@ function imageUploader(obj, more) {
                 buttons: {
                     "确定": {
                         className: "btn-success",
-                        callback: function () {
+                        callback: function () {console.log(selectedImage);
                             $(obj).parent().parent().find('input').val(selectedImage.id);
+                            $(obj).parent().parent().find('input.file_img').val(selectedImage.url);
                             $(obj).parent().parent().find('img').attr('src', selectedImage.url);
                             selectedImage = {};
 

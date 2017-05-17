@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:65:"F:\pebble\public/../application/admin\view\goods\index_index.html";i:1495014502;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"F:\pebble\public/../application/admin\view\goods\category_index.html";i:1495014839;}*/ ?>
 <!-- Main content -->
 <section class="content">
 	<div class="row">
@@ -23,43 +23,41 @@
 									<label><input onchange="checkAll()" type="checkbox" value=""></label>
 								</th>
 								<th>id</th>
-								<th>名称</th>
-								<th>商品编号</th>
-								<th>分类</th>
-								<th>库存</th>
-								<th>重量/数量</th>
-								<th>本店价格</th>
+								<th>分类名称</th>
+								<th>排序</th>
 								<th>是否上架</th>
+								<th>图片</th>
+								<th>是否热销</th>
+								<th>创建时间</th>
 								<th>操作</th>
 							</tr>
 							<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?>
 							<tr>
 								<td class="hidden-xs">
 									<label><input name="checkbox" class="check" type="checkbox"
-												  value="<?php echo $li['goods_id']; ?>"></label>
+												  value="<?php echo $li['id']; ?>"></label>
 								</td>
-								<td><?php echo $li['goods_id']; ?></td>
-								<td><?php echo $li['goods_name']; ?></td>
-								<td><?php echo $li['goods_sn']; ?></td>
-								<td><?php echo $li['category']['name']; ?></td>
-								<td><?php echo $li['store_count']; ?></td>
-								<td><?php echo $li['amount']; ?></td>
-								<td><?php echo $li['shop_price']; ?></td>
+								<td><?php echo $li['id']; ?></td>
+								<td><?php echo $li['name']; ?></td>
+								<td><?php echo $li['sort_order']; ?></td>
 								<td>
-                                    <?php if($li['status'] == '1'): ?>
+                                    <?php if($li['on_sale'] == '1'): ?>
                                     	<span class="label label-success">上架</span>
                                     <?php else: ?>
-                                    	<span class="label label-default">不上架</span>
+                                    	<span class="label label-default">关闭</span>
                                     <?php endif; ?>
                                 </td>
+								<td><?php echo $li['image']; ?></td>
+								<td><?php echo $li['is_hot']; ?></td>
+								<td><?php echo $li['created_at']; ?></td>
 								<td class="table-action">
-									<a href="<?php echo url('/goods/index/add',array('goods_id'=>$li['goods_id'])); ?>">编辑</a>
-									<?php if($li['status'] == '0'): ?>
-                                    <a href="<?php echo url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>1)); ?>">开启</a>
+									<a href="<?php echo url('/goods/category/add',array('id'=>$li['id'])); ?>">编辑</a>
+									<?php if($li['on_sale'] == '0'): ?>
+                                    <a href="<?php echo url('/goods/category/update',array('id'=>$li['id'],'on_sale'=>1)); ?>">开启</a>
                                     <?php else: ?>
-                                    <a href="<?php echo url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>0)); ?>">关闭</a>
+                                    <a href="<?php echo url('/goods/category/update',array('id'=>$li['id'],'on_sale'=>0)); ?>">关闭</a>
                                     <?php endif; ?>
-									<a href="<?php echo url('/goods/index/del',array('id'=>$li['goods_id'])); ?>">删除</a>
+									<a href="<?php echo url('/goods/category/del',array('id'=>$li['id'])); ?>">删除</a>
 								</td>
 							</tr>
 							<?php endforeach; endif; else: echo "" ;endif; ?>
@@ -87,7 +85,6 @@
 					<div class="btn-group">
 					</div>
 					<div class="pull-right">
-						<?php echo $list->render(); ?>
 					</div>
 				</div>
 			</div>

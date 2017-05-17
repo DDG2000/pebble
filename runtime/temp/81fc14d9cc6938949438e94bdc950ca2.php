@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"F:\pebble\public/../application/admin\view\goods\index_add.html";i:1494922763;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:63:"F:\pebble\public/../application/admin\view\goods\index_add.html";i:1495015205;}*/ ?>
 <!-- Main content -->
 <section class="content">
     <div class="row">
@@ -11,7 +11,7 @@
                 <!-- form start -->
                 <form class="form-horizontal layui-form" action="<?php echo url('/admin/goods/index/add'); ?>" method="post" enctype="text/plain">
                     <div class="box-body">
-                        <input class="form-control" name="id" placeholder="" value="<?php echo (isset($goods['goods_id']) && ($goods['goods_id'] !== '')?$goods['goods_id']:0); ?>" type="hidden" >
+                        <input class="form-control" name="goods_id" placeholder="" value="<?php echo (isset($goods['goods_id']) && ($goods['goods_id'] !== '')?$goods['goods_id']:0); ?>" type="hidden" >
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">名称</label>
@@ -20,7 +20,7 @@
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品编号</label>
-                            <div class="col-sm-8"><input class="form-control" name="goods_sn" readonly placeholder="" value="<?php echo (isset($goods['goods_sn']) && ($goods['goods_sn'] !== '')?$goods['goods_sn']:'0001'); ?>" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="<?php echo (isset($goods['goods_sn']) && ($goods['goods_sn'] !== '')?$goods['goods_sn']:''); ?>" type="text"></div>
                         </div>
 
                         <div class="form-group">
@@ -36,7 +36,7 @@
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">点击数</label>
-                            <div class="col-sm-8"><input class="form-control" name="click_count" readonly placeholder="" value="<?php echo (isset($goods['click_count']) && ($goods['click_count'] !== '')?$goods['click_count']:'1111'); ?>" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="<?php echo (isset($goods['click_count']) && ($goods['click_count'] !== '')?$goods['click_count']:''); ?>" type="text"></div>
                         </div>
 
                         <div class="form-group">
@@ -75,26 +75,16 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">商品详细描述</label>
-                            <div class="col-sm-8" id="UEditor" name="goods_content" type="text/plain" style="height:400px;">
-                                 <!-- 加载编辑器的容器 -->
-                                <script >
-                                    <?php echo (isset($goods['goods_content']) && ($goods['goods_content'] !== '')?$goods['goods_content']:''); ?>
-                                </script>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
                             <label class="col-sm-2 control-label">商品图</label>
                             <div class="col-sm-8">
                                 <div class="fileupload fileupload-new" data-provides="fileupload">
                                     <div class="fileupload-new img-thumbnail">
-                                        <?php if(empty($config['original_img']) || (($config['original_img'] instanceof \think\Collection || $config['original_img'] instanceof \think\Paginator ) && $config['original_img']->isEmpty())): ?>
+                                        <?php if(empty($goods['original_img']) || (($goods['original_img'] instanceof \think\Collection || $goods['original_img'] instanceof \think\Paginator ) && $goods['original_img']->isEmpty())): ?>
                                         <img src="__PUBLIC__/static/dist/img/noimage.gif">
                                         <?php else: ?>
-                                        <img src="__PUBLIC__/uploads/<?php echo $config['logo']['savepath']; ?><?php echo $config['logo']['savename']; ?>">
+                                        <img src="<?php echo $goods['original_img']; ?>">
                                         <?php endif; ?>
-                                        <input class="form-control" name="original_img" id="file_id" placeholder="" value="<?php echo (isset($config['original_img']) && ($config['original_img'] !== '')?$config['original_img']:''); ?>" type="hidden">
+                                        <input class="form-control file_img" name="original_img" placeholder="" value="<?php echo (isset($goods['original_img']) && ($goods['original_img'] !== '')?$goods['original_img']:''); ?>" type="hidden">
                                         <div class="edit_pic_mask">
                                             <i class="fa fa-plus-circle" onclick="imageUploader(this,false)"></i>
                                             <i class="fa fa-minus-circle" onclick="removeImage(this,false)"></i>
@@ -103,10 +93,20 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品详细描述</label>
+                            <div class="col-sm-8">
+                                 <!-- 加载编辑器的容器 -->
+                                <script id="UEditor" name="goods_content" type="text/plain" style="height:400px;">
+                                    <?php echo (isset($goods['goods_content']) && ($goods['goods_content'] !== '')?$goods['goods_content']:''); ?>
+                                </script>
+                            </div>
+                        </div>
+
 
                         <div class="form-group">
                             <label class="control-label col-md-2">是否上架</label>
-                            <div class="col-md-7"><input type="checkbox" name="is_on_sale" lay-skin="switch" value="1" <?php if(!(empty($goods['is_on_sale']) || (($goods['is_on_sale'] instanceof \think\Collection || $goods['is_on_sale'] instanceof \think\Paginator ) && $goods['is_on_sale']->isEmpty()))): ?>checked<?php endif; ?>></div>
+                            <div class="col-md-7"><input type="checkbox" name="on_sale" lay-skin="switch" value="1" <?php if(!(empty($goods['is_on_sale']) || (($goods['is_on_sale'] instanceof \think\Collection || $goods['is_on_sale'] instanceof \think\Paginator ) && $goods['is_on_sale']->isEmpty()))): ?>checked<?php endif; ?>></div>
                         </div>
 
                         <div class="form-group">
@@ -136,16 +136,16 @@
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品上架时间</label>
-                            <div class="col-sm-8"><input class="form-control" name="created_at" readonly placeholder="" value="<?php echo (isset($goods['created_at']) && ($goods['created_at'] !== '')?$goods['created_at']:''); ?>" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="<?php echo (isset($goods['created_at']) && ($goods['created_at'] !== '')?$goods['created_at']:''); ?>" type="text"></div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">最后更新时间</label>
-                            <div class="col-sm-8"><input class="form-control" name="updated_at" readonly placeholder="" value="<?php echo (isset($goods['updated_at']) && ($goods['updated_at'] !== '')?$goods['updated_at']:''); ?>" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="<?php echo (isset($goods['updated_at']) && ($goods['updated_at'] !== '')?$goods['updated_at']:''); ?>" type="text"></div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品销量</label>
-                            <div class="col-sm-8"><input class="form-control" name="sales_sum" readonly placeholder="" value="<?php echo (isset($goods['sales_sum']) && ($goods['sales_sum'] !== '')?$goods['sales_sum']:''); ?>" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="<?php echo (isset($goods['sales_sum']) && ($goods['sales_sum'] !== '')?$goods['sales_sum']:''); ?>" type="text"></div>
                         </div>
 
 

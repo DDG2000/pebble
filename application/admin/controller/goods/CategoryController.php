@@ -2,32 +2,28 @@
 namespace app\admin\controller\goods;
 use app\admin\controller\BaseController;
 
-use app\common\model\ArticleCategory;
-use app\common\model\Article;
+use app\common\model\GoodsCategory;
+use app\common\model\Goods;
 class CategoryController extends BaseController
 {
-	//文章分类
+	//商品分类
 	public function index(){
-		$categorylist = ArticleCategory::all()->toArray();
-		
+		$list = GoodsCategory::all()->toArray();
 		cookie("prevUrl", request()->url());
-
-		$tree = list_to_tree($categorylist, 'id', 'pid', 'sub');
-
-		$this->assign('categorylist', $tree);
+		$this->assign('list', $list);
 		return view();
 	}
 
-	//新增修改文章分类
+	//新增修改商品分类
 	public function add(){
 		if (request()->isPost()){
 			$data = input('post.');
 			$data['status'] = input('?post.status') ? $data['status'] : 0;
 			
 			if(input('post.id')){
-				$result = ArticleCategory::update($data);
+				$result = GoodsCategory::update($data);
 			}else{
-				$result = ArticleCategory::create($data);
+				$result = GoodsCategory::create($data);
 			}
 
 			if($result){
@@ -38,20 +34,20 @@ class CategoryController extends BaseController
 		}else{
 			$id = input('param.id');
 			if($id){
-				$category = ArticleCategory::find($id);
+				$category = GoodsCategory::find($id);
 				$this->assign('category', $category);
 			}
-			$parentcategory = ArticleCategory::all(['pid'=>0]);
+			$parentcategory = GoodsCategory::all(['pid'=>0]);
             $this->assign("parentcategory", $parentcategory);
 			return view();
 		}
 	}
 
-	//改变文章类型状态
+	//改变商品类型状态
 	public function update(){
 		$data = input('param.');
-		$result = ArticleCategory::where('id','in',$data['id'])->update(['status' => $data['status']]);
-		Article::where('category_id',$data['id'])->update(['status' => $data['status']]);
+		$result = GoodsCategory::where('id','in',$data['id'])->update(['on_sale' => $data['on_sale']]);
+		Goods::where('category_id',$data['id'])->update(['on_sale' => $data['on_sale']]);
 		if($result){
 			$this->success("修改成功", cookie("prevUrl"));
 		}else{
@@ -59,11 +55,11 @@ class CategoryController extends BaseController
 		}
 	}
 
-	//删除文章分类
+	//删除商品分类
 	public function del(){
 		$ids = input('param.id');
 		
-		$result = ArticleCategory::destroy($ids);
+		$result = GoodsCategory::destroy($ids);
 		if($result){
 			$this->success("删除成功", cookie("prevUrl"));
 		}else{

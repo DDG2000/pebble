@@ -10,7 +10,7 @@
                 <!-- form start -->
                 <form class="form-horizontal layui-form" action="{:url('/admin/goods/index/add')}" method="post" enctype="text/plain">
                     <div class="box-body">
-                        <input class="form-control" name="id" placeholder="" value="{$goods.goods_id|default=0}" type="hidden" >
+                        <input class="form-control" name="goods_id" placeholder="" value="{$goods.goods_id|default=0}" type="hidden" >
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">名称</label>
@@ -19,7 +19,7 @@
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品编号</label>
-                            <div class="col-sm-8"><input class="form-control" name="goods_sn" readonly placeholder="" value="{$goods.goods_sn|default='0001'}" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="{$goods.goods_sn|default=''}" type="text"></div>
                         </div>
 
                         <div class="form-group">
@@ -35,7 +35,7 @@
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">点击数</label>
-                            <div class="col-sm-8"><input class="form-control" name="click_count" readonly placeholder="" value="{$goods.click_count|default='1111'}" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="{$goods.click_count|default=''}" type="text"></div>
                         </div>
 
                         <div class="form-group">
@@ -74,26 +74,16 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">商品详细描述</label>
-                            <div class="col-sm-8" id="UEditor" name="goods_content" type="text/plain" style="height:400px;">
-                                 <!-- 加载编辑器的容器 -->
-                                <script >
-                                    {$goods.goods_content|default=''}
-                                </script>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
                             <label class="col-sm-2 control-label">商品图</label>
                             <div class="col-sm-8">
                                 <div class="fileupload fileupload-new" data-provides="fileupload">
                                     <div class="fileupload-new img-thumbnail">
-                                        {empty name="config.original_img"}
+                                        {empty name="goods.original_img"}
                                         <img src="__PUBLIC__/static/dist/img/noimage.gif">
                                         {else /}
-                                        <img src="__PUBLIC__/uploads/{$config['logo']['savepath']}{$config['logo']['savename']}">
+                                        <img src="{$goods.original_img}">
                                         {/empty}
-                                        <input class="form-control" name="original_img" id="file_id" placeholder="" value="{$config.original_img|default=''}" type="hidden">
+                                        <input class="form-control file_img" name="original_img" placeholder="" value="{$goods.original_img|default=''}" type="hidden">
                                         <div class="edit_pic_mask">
                                             <i class="fa fa-plus-circle" onclick="imageUploader(this,false)"></i>
                                             <i class="fa fa-minus-circle" onclick="removeImage(this,false)"></i>
@@ -102,10 +92,20 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品详细描述</label>
+                            <div class="col-sm-8">
+                                 <!-- 加载编辑器的容器 -->
+                                <script id="UEditor" name="goods_content" type="text/plain" style="height:400px;">
+                                    {$goods.goods_content|default=''}
+                                </script>
+                            </div>
+                        </div>
+
 
                         <div class="form-group">
                             <label class="control-label col-md-2">是否上架</label>
-                            <div class="col-md-7"><input type="checkbox" name="is_on_sale" lay-skin="switch" value="1" {notempty name="goods.is_on_sale"}checked{/notempty}></div>
+                            <div class="col-md-7"><input type="checkbox" name="on_sale" lay-skin="switch" value="1" {notempty name="goods.is_on_sale"}checked{/notempty}></div>
                         </div>
 
                         <div class="form-group">
@@ -135,16 +135,16 @@
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品上架时间</label>
-                            <div class="col-sm-8"><input class="form-control" name="created_at" readonly placeholder="" value="{$goods.created_at|default=''}" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="{$goods.created_at|default=''}" type="text"></div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">最后更新时间</label>
-                            <div class="col-sm-8"><input class="form-control" name="updated_at" readonly placeholder="" value="{$goods.updated_at|default=''}" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="{$goods.updated_at|default=''}" type="text"></div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品销量</label>
-                            <div class="col-sm-8"><input class="form-control" name="sales_sum" readonly placeholder="" value="{$goods.sales_sum|default=''}" type="text"></div>
+                            <div class="col-sm-8"><input class="form-control" readonly placeholder="" value="{$goods.sales_sum|default=''}" type="text"></div>
                         </div>
 
 

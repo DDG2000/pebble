@@ -1,7 +1,7 @@
 <?php
 namespace app\admin\controller\goods;
 use app\admin\controller\BaseController;
-
+use app\common\model\Config;
 use app\common\model\Goods;
 use app\common\model\GoodsCategory;
 use app\common\model\GoodsBinsn;
@@ -19,14 +19,14 @@ class IndexController extends BaseController
 	public function add(){
 		if (request()->isPost()){
 			$data = input('post.');
-            $re=GoodsBinsn::find('1');
-            $str=str_pad($re['num'], 6,0,0);
-            model('goods_binsn')->where('id',1)->setInc("num");
-			$data['goods_sn']='sn88'.$str;
-			dump($data);die;
+//			dump($data);die;
 			if(input('post.goods_id')){
 				$result = Goods::update($data);
 			}else{
+                $re=GoodsBinsn::find('1');
+                $str=str_pad($re['num'], 6,0,0);
+                model('goods_binsn')->where('id',1)->setInc("num");
+                $data['goods_sn']='sn88'.$str;
 				$result = Goods::create($data);
 			}
 
@@ -36,14 +36,16 @@ class IndexController extends BaseController
 				$this->error('保存失败', cookie("prevUrl"));
 			}
 		}else{
-			$id = input('param.id');
+			$id = input('param.goods_id');
 			if($id){
 				$goods = Goods::find($id);
 				$this->assign('goods', $goods);
 			}
 			$category = GoodsCategory::all()->toArray();
 //			$tree = list_to_tree($category, 'id', 'pid', 'sub');
+            $config = Config::with('logo')->find();
             $this->assign("category", $category);
+            $this->assign("config", $config);
 			return view();
 		}
 	}
@@ -51,7 +53,7 @@ class IndexController extends BaseController
 	//改变商品状态
 	public function update(){
 		$data = input('param.');
-		$result = Goods::where('id','in',$data['id'])->update(['status' => $data['status']]);
+		$result = Goods::where('id','in',$data['id'])->update(['on_sale' => $data['on_sale']]);
 		if($result){
 			$this->success("修改成功", cookie("prevUrl"));
 		}else{

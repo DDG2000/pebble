@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"F:\pebble\public/../application/admin\view\article\index_index.html";i:1494239574;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"F:\pebble\public/../application/admin\view\article\index_index.html";i:1495012978;}*/ ?>
 <!-- Main content -->
 <section class="content">
 	<div class="row">
@@ -29,6 +29,7 @@
 								<th>状态</th>
 								<th>备注</th>
 								<th>时间</th>
+								<th>修改时间</th>
 								<th>操作</th>
 							</tr>
 							<?php if(is_array($articlelist) || $articlelist instanceof \think\Collection || $articlelist instanceof \think\Paginator): $i = 0; $__LIST__ = $articlelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$article): $mod = ($i % 2 );++$i;?>
@@ -61,6 +62,9 @@
 								</td>
 								<td>
 									<?php echo $article['created_at']; ?>
+								</td>
+								<td>
+									<?php echo $article['updated_at']; ?>
 								</td>
 								<td class="table-action">
 									<a href="<?php echo url('/admin/article/index/add',array('id'=>$article['id'])); ?>">编辑</a>
