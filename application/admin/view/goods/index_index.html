@@ -45,18 +45,18 @@
 								<td>{$li.amount}</td>
 								<td>{$li.shop_price}</td>
 								<td>
-                                    {eq name="li.status" value="1"}
+                                    {eq name="li.on_sale" value="1"}
                                     	<span class="label label-success">上架</span>
                                     {else/}
-                                    	<span class="label label-default">不上架</span>
+                                    	<span class="label label-default">关闭</span>
                                     {/eq}
                                 </td>
-								<td class="table-action">
+								<td class="table-action redbar">
 									<a href="{:url('/goods/index/add',array('goods_id'=>$li['goods_id']))}">编辑</a>
-									{eq name="li.status" value="0"}
-                                    <a href="{:url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>1))}">开启</a>
+									{eq name="li.on_sale" value="0"}
+                                    <a href="{:url('/goods/index/update',array('goods_id'=>$li['goods_id'],'on_sale'=>1))}">上架</a>
                                     {else}
-                                    <a href="{:url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>0))}">关闭</a>
+                                    <a href="{:url('/goods/index/update',array('goods_id'=>$li['goods_id'],'on_sale'=>0))}">关闭</a>
                                     {/eq}
 									<a href="{:url('/goods/index/del',array('id'=>$li['goods_id']))}">删除</a>
 								</td>

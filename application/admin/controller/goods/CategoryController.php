@@ -8,7 +8,7 @@ class CategoryController extends BaseController
 {
 	//商品分类
 	public function index(){
-		$list = GoodsCategory::all()->toArray();
+		$list = GoodsCategory::all(['status'=>1])->toArray();
 		cookie("prevUrl", request()->url());
 		$this->assign('list', $list);
 		return view();
@@ -57,9 +57,8 @@ class CategoryController extends BaseController
 
 	//删除商品分类
 	public function del(){
-		$ids = input('param.id');
-		
-		$result = GoodsCategory::destroy($ids);
+		$id = input('param.id');
+        $result=GoodsCategory::where('category_id',$id)->update(['status' => 0]);
 		if($result){
 			$this->success("删除成功", cookie("prevUrl"));
 		}else{

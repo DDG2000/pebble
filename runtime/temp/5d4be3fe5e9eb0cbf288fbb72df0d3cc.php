@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"F:\pebble\public/../application/admin\view\goods\category_index.html";i:1495014839;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"F:\pebble\public/../application/admin\view\goods\category_index.html";i:1495077641;}*/ ?>
 <!-- Main content -->
 <section class="content">
 	<div class="row">
@@ -57,7 +57,7 @@
                                     <?php else: ?>
                                     <a href="<?php echo url('/goods/category/update',array('id'=>$li['id'],'on_sale'=>0)); ?>">关闭</a>
                                     <?php endif; ?>
-									<a href="<?php echo url('/goods/category/del',array('id'=>$li['id'])); ?>">删除</a>
+									<!--<a href="<?php echo url('/goods/category/del',array('id'=>$li['id'])); ?>">删除</a>-->
 								</td>
 							</tr>
 							<?php endforeach; endif; else: echo "" ;endif; ?>
@@ -67,21 +67,21 @@
 				<div class="box-footer table-responsive">
 					<div class="btn-group">
                         <button type="button" class="btn btn-danger"
-                                onclick="batchUrl('<?php echo url('/goods/index/update',array('status'=>1)); ?>')">
+                                onclick="batchUrl('<?php echo url('/goods/category/update',array('status'=>1)); ?>')">
                             开启
                         </button>
                     </div>
                     <div class="btn-group">
                         <button type="button" class="btn btn-danger"
-                                onclick="batchUrl('<?php echo url('/goods/index/update',array('status'=>0)); ?>')">
+                                onclick="batchUrl('<?php echo url('/goods/category/update',array('status'=>0)); ?>')">
                             关闭
                         </button>
                     </div>
-					<div class="btn-group">
-                        <button type="button" class="btn btn-danger"
-                                onclick="batchUrl('<?php echo url('/goods/index/del'); ?>')">删除
-                        </button>
-                    </div>
+					<!--<div class="btn-group">-->
+                        <!--<button type="button" class="btn btn-danger"-->
+                                <!--onclick="batchUrl('<?php echo url('/goods/category/del'); ?>')">删除-->
+                        <!--</button>-->
+                    <!--</div>-->
 					<div class="btn-group">
 					</div>
 					<div class="pull-right">

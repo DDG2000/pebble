@@ -9,7 +9,7 @@ class IndexController extends BaseController
 {
 	//商品列表
 	public function index(){
-		$goodslist = Goods::with('category')->order('goods_id desc')->paginate();
+		$goodslist = Goods::with('category')->order('goods_id desc')->where('status = 1')->paginate();
 		cookie("prevUrl", request()->url());
 		$this->assign('list', $goodslist);
 		return view();
@@ -53,7 +53,7 @@ class IndexController extends BaseController
 	//改变商品状态
 	public function update(){
 		$data = input('param.');
-		$result = Goods::where('id','in',$data['id'])->update(['on_sale' => $data['on_sale']]);
+		$result = Goods::where('goods_id','in',$data['goods_id'])->update(['on_sale' => $data['on_sale']]);
 		if($result){
 			$this->success("修改成功", cookie("prevUrl"));
 		}else{
@@ -64,8 +64,8 @@ class IndexController extends BaseController
 	//删除商品
 	public function del(){
 		$ids = input('param.id');
-		
-		$result = Goods::destroy($ids);
+        $result = Goods::where('goods_id','in',$ids)->update(['status' => 0]);
+
 		if($result){
 			$this->success("删除成功", cookie("prevUrl"));
 		}else{

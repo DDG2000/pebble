@@ -5031,6 +5031,10 @@ img, fieldset {
     margin-right: 12px;
 }
 
+.redbar{
+    color: red;
+}
+
 .edit_pic_mask {
     text-align: center;
     position: relative;

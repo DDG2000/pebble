@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:65:"F:\pebble\public/../application/admin\view\goods\index_index.html";i:1495014502;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:65:"F:\pebble\public/../application/admin\view\goods\index_index.html";i:1495078120;}*/ ?>
 <!-- Main content -->
 <section class="content">
 	<div class="row">
@@ -46,18 +46,18 @@
 								<td><?php echo $li['amount']; ?></td>
 								<td><?php echo $li['shop_price']; ?></td>
 								<td>
-                                    <?php if($li['status'] == '1'): ?>
+                                    <?php if($li['on_sale'] == '1'): ?>
                                     	<span class="label label-success">上架</span>
                                     <?php else: ?>
-                                    	<span class="label label-default">不上架</span>
+                                    	<span class="label label-default">关闭</span>
                                     <?php endif; ?>
                                 </td>
-								<td class="table-action">
+								<td class="table-action redbar">
 									<a href="<?php echo url('/goods/index/add',array('goods_id'=>$li['goods_id'])); ?>">编辑</a>
-									<?php if($li['status'] == '0'): ?>
-                                    <a href="<?php echo url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>1)); ?>">开启</a>
+									<?php if($li['on_sale'] == '0'): ?>
+                                    <a href="<?php echo url('/goods/index/update',array('goods_id'=>$li['goods_id'],'on_sale'=>1)); ?>">上架</a>
                                     <?php else: ?>
-                                    <a href="<?php echo url('/goods/index/update',array('goods_id'=>$li['goods_id'],'status'=>0)); ?>">关闭</a>
+                                    <a href="<?php echo url('/goods/index/update',array('goods_id'=>$li['goods_id'],'on_sale'=>0)); ?>">关闭</a>
                                     <?php endif; ?>
 									<a href="<?php echo url('/goods/index/del',array('id'=>$li['goods_id'])); ?>">删除</a>
 								</td>
